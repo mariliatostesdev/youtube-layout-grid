@@ -1,0 +1,42 @@
+@media (max-width: 920px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    margin-top: 38px;
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 20px auto;
+    height: 100%;
+    gap: 0;
+  }
+
+  .video {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .video-description {
+    text-align: left;
+  }
+
+  .sidebar {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: scroll;
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 20px;
+  }
+
+  .sidebar > div:not(.sidebar .ad) {
+    display: inline;
+    min-width: 200px;
+    margin: 20px;
+  }
+}
