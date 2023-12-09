@@ -2,6 +2,12 @@
 
 Este projeto apresenta um layout semelhante ao do YouTube, utilizando CSS Grid para organizar os elementos. A página inclui um vídeo principal com uma descrição e uma barra lateral com anúncios e recomendações de vídeos.
 
+## Visualização:
+### Desktop:
+![responsive-ytb-layout.png](./images/responsive-ytb-layout.png)
+### Responsiva:
+![responsive-ytb-layout.gif](./images/responsive-ytb-layout.gif)
+
 ## Estrutura HTML
 
 A estrutura HTML é organizada com tags semânticas, como `<section>`, `<div>`, `<img>`, `<h1>`, `<h2>`, e `<p>`. O conteúdo é estruturado para facilitar a aplicação de estilos e o posicionamento dos elementos.
